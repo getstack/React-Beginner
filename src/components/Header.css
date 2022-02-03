@@ -1,0 +1,14 @@
+ul {
+
+    list-style: none;
+    
+    justify-content: center;
+
+}
+
+li {
+
+    display: inline;
+    
+
+}
