@@ -11,6 +11,8 @@ class Welcome extends Component {
 
         }
 
+        
+
     }
 
 
@@ -29,7 +31,7 @@ class Welcome extends Component {
         return (
             <div>
                 <h1 >{this.state.message}</h1>
-                <button onClick={() => this.changeMessage()}>Subscribe</button>
+                <button onClick={() => this.changeMessage.bind(this)}>Subscribe</button>
             </div>
 
         )

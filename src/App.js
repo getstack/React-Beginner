@@ -1,5 +1,6 @@
 import ClassClick from "./components/ClassClick";
 import FunctionClick from "./components/FunctionClick";
+import ParentComponent from "./components/ParentComponent";
 
 
 
@@ -8,17 +9,17 @@ import FunctionClick from "./components/FunctionClick";
 function App() {
 
 
-return (
-     
-<>
+  return (
 
-<FunctionClick/>
-<ClassClick/>
+    <>
+
+      
+      <ParentComponent />
 
 
-</>
+    </>
 
- 
+
   );
 }
 
