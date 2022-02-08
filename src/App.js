@@ -1,6 +1,8 @@
 import ClassClick from "./components/ClassClick";
 import FunctionClick from "./components/FunctionClick";
-import ParentComponent from "./components/ParentComponent";
+import ListRendering from "./components/ListRendering";
+import StyledComp from "./components/StyledComp";
+
 
 
 
@@ -13,8 +15,7 @@ function App() {
 
     <>
 
-      
-      <ParentComponent />
+      <StyledComp/>
 
 
     </>
